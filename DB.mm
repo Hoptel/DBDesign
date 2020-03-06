@@ -116,11 +116,46 @@
 <node TEXT="UpdateTime" LOCALIZED_STYLE_REF="default" ID="ID_1645414102" CREATED="1582940187046" MODIFIED="1582940406396" HGAP_QUANTITY="-106.74999640136969 pt" VSHIFT_QUANTITY="-0.7499999776482582 pt"/>
 <node TEXT="HotelRefNo" LOCALIZED_STYLE_REF="default" ID="ID_687741358" CREATED="1582940316010" MODIFIED="1582940422217" HGAP_QUANTITY="-105.99999642372143 pt" VSHIFT_QUANTITY="-103.49999691545972 pt"/>
 </node>
-<node TEXT="User" FOLDED="true" POSITION="right" ID="ID_1371754966" CREATED="1582862252784" MODIFIED="1582906685466" HGAP_QUANTITY="71.74999827891594 pt" VSHIFT_QUANTITY="171.74999488145127 pt">
+<node TEXT="User" FOLDED="true" POSITION="right" ID="ID_1371754966" CREATED="1582862252784" MODIFIED="1583521705467" HGAP_QUANTITY="71.74999827891594 pt" VSHIFT_QUANTITY="171.74999488145127 pt">
 <edge COLOR="#ff0000"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      This element provides Read / Read-Write abilities to a user, this can be an employee, a guest, etc
+    </p>
+  </body>
+</html>
+
+</richcontent>
 <node TEXT="Username" ID="ID_641713040" CREATED="1582862494407" MODIFIED="1582863128068" HGAP_QUANTITY="9.500000134110444 pt" VSHIFT_QUANTITY="1.4999999552965164 pt"/>
 <node TEXT="Password hash" ID="ID_1683426426" CREATED="1582862519198" MODIFIED="1582862525778"/>
 <node TEXT="hotel id(s)" ID="ID_1307336179" CREATED="1582862527185" MODIFIED="1582862571661"/>
+<node TEXT="Auth Level" ID="ID_1152008202" CREATED="1583521869173" MODIFIED="1583522309023"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      determines how far can a user access the system (also placed in Employee and Guest tables)<br/><br/>0: no access to the system whatsoever (only for people with no need to access the system)
+    </p>
+    <p>
+      1: read write access to any content created by the user + user's own info, read only access to other sections
+    </p>
+    <p>
+      2: read write access to all data (admin)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="Hotel" POSITION="left" ID="ID_1761038819" CREATED="1582862293788" MODIFIED="1583521106611" HGAP_QUANTITY="69.49999834597116 pt" VSHIFT_QUANTITY="166.4999950379135 pt">
 <edge COLOR="#0000ff"/>
