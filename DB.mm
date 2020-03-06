@@ -1,6 +1,6 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="DB" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_768616640" CREATED="1582862232031" MODIFIED="1583434810171"><hook NAME="MapStyle" zoom="1.464">
+<node TEXT="DB" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_768616640" CREATED="1582862232031" MODIFIED="1583521106611"><hook NAME="MapStyle" zoom="1.464">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
@@ -61,8 +61,37 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="19" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="23" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
+<node TEXT="server / company structure" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_167257458" CREATED="1583520743073" MODIFIED="1583521208866" HGAP_QUANTITY="-29.24999912828209 pt" VSHIFT_QUANTITY="-271.4999919086697 pt">
+<hook NAME="FreeNode"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Company: an organization that owns 1 or more hotels.<br/>Each company has 1 server.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Hotel: a hotel is an entity where most operations happen, sales, revenues, reservations, costs are per hotel, but a company's employees can be assigned more than 1 hotel.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      In the case of hotelrefno for employees, it is either the single hotel they're a part of (if their hotel list is null), or the one that was used to create their account (if their hotel list contains 1+ elements)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 <node TEXT="Base Columns" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_1540906255" CREATED="1582905257625" MODIFIED="1582940422218" HGAP_QUANTITY="295.499991193414 pt" VSHIFT_QUANTITY="-267.7499920204284 pt">
 <hook NAME="FreeNode"/>
 <node TEXT="ID" LOCALIZED_STYLE_REF="default" ID="ID_959775953" CREATED="1582905293106" MODIFIED="1582940363923" HGAP_QUANTITY="-105.99999642372141 pt" VSHIFT_QUANTITY="184.4999945014717 pt"/>
@@ -93,7 +122,7 @@
 <node TEXT="Password hash" ID="ID_1683426426" CREATED="1582862519198" MODIFIED="1582862525778"/>
 <node TEXT="hotel id(s)" ID="ID_1307336179" CREATED="1582862527185" MODIFIED="1582862571661"/>
 </node>
-<node TEXT="Hotel" POSITION="left" ID="ID_1761038819" CREATED="1582862293788" MODIFIED="1582863391794" HGAP_QUANTITY="60.49999861419205 pt" VSHIFT_QUANTITY="164.99999508261698 pt">
+<node TEXT="Hotel" POSITION="left" ID="ID_1761038819" CREATED="1582862293788" MODIFIED="1583521106611" HGAP_QUANTITY="69.49999834597116 pt" VSHIFT_QUANTITY="166.4999950379135 pt">
 <edge COLOR="#0000ff"/>
 </node>
 <node TEXT="Auth-Token" POSITION="right" ID="ID_1134554422" CREATED="1582862302210" MODIFIED="1582906690221" HGAP_QUANTITY="67.99999839067465 pt" VSHIFT_QUANTITY="-0.749999977648272 pt">
@@ -105,7 +134,7 @@
 <node TEXT="Cost" POSITION="left" ID="ID_1875976423" CREATED="1582862700096" MODIFIED="1582863420018" HGAP_QUANTITY="71.74999827891591 pt" VSHIFT_QUANTITY="2.999999910593033 pt">
 <edge COLOR="#7c0000"/>
 </node>
-<node TEXT="File" POSITION="right" ID="ID_308662881" CREATED="1582862321422" MODIFIED="1583434776200" HGAP_QUANTITY="85.99999785423283 pt" VSHIFT_QUANTITY="-188.24999438971298 pt">
+<node TEXT="File" POSITION="right" ID="ID_308662881" CREATED="1582862321422" MODIFIED="1583520553176" HGAP_QUANTITY="72.49999825656417 pt" VSHIFT_QUANTITY="-0.7499999776482582 pt">
 <edge COLOR="#ff00ff"/>
 </node>
 <node TEXT="Reservation" POSITION="left" ID="ID_1381901778" CREATED="1582863413016" MODIFIED="1583434788261" HGAP_QUANTITY="67.24999841302639 pt" VSHIFT_QUANTITY="-2.999999910593062 pt">
@@ -114,8 +143,11 @@
 <node TEXT="Room" POSITION="left" ID="ID_140107556" CREATED="1582864510092" MODIFIED="1583434790364" HGAP_QUANTITY="64.24999850243336 pt" VSHIFT_QUANTITY="-1.4999999552965315 pt">
 <edge COLOR="#ff00ff"/>
 </node>
-<node TEXT="Employee" POSITION="left" ID="ID_1401624260" CREATED="1583434768067" MODIFIED="1583434810170" HGAP_QUANTITY="67.99999839067465 pt" VSHIFT_QUANTITY="-184.4999945014717 pt">
+<node TEXT="Employee" POSITION="left" ID="ID_1401624260" CREATED="1583434768067" MODIFIED="1583520689122" HGAP_QUANTITY="63.4999985247851 pt" VSHIFT_QUANTITY="-173.2499948367478 pt">
 <edge COLOR="#007c00"/>
+</node>
+<node TEXT="Last-Updated" POSITION="right" ID="ID_1372095906" CREATED="1583520545652" MODIFIED="1583520565076" HGAP_QUANTITY="76.24999814480549 pt" VSHIFT_QUANTITY="-184.4999945014717 pt">
+<edge COLOR="#7c007c"/>
 </node>
 </node>
 </map>
