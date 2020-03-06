@@ -135,7 +135,7 @@
 <node TEXT="Username" ID="ID_641713040" CREATED="1582862494407" MODIFIED="1582863128068" HGAP_QUANTITY="9.500000134110444 pt" VSHIFT_QUANTITY="1.4999999552965164 pt"/>
 <node TEXT="Password hash" ID="ID_1683426426" CREATED="1582862519198" MODIFIED="1582862525778"/>
 <node TEXT="hotel id(s)" ID="ID_1307336179" CREATED="1582862527185" MODIFIED="1582862571661"/>
-<node TEXT="Auth Level" ID="ID_1152008202" CREATED="1583521869173" MODIFIED="1583522309023"><richcontent TYPE="NOTE">
+<node TEXT="Auth Level" ID="ID_1152008202" CREATED="1583521869173" MODIFIED="1583536006710"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -143,13 +143,16 @@
   </head>
   <body>
     <p>
-      determines how far can a user access the system (also placed in Employee and Guest tables)<br/><br/>0: no access to the system whatsoever (only for people with no need to access the system)
+      determines how far can a user access the system<br/>
     </p>
     <p>
-      1: read write access to any content created by the user + user's own info, read only access to other sections
+      0: read only access to content<br/>1: read write access to any content created by the user + user's own info, read only access to other sections
     </p>
     <p>
-      2: read write access to all data (admin)
+      2: read write access to user's own data + other users' data
+    </p>
+    <p>
+      3: read write access to all users' data + system data (such as the ability to create auth tokens) (admin)
     </p>
   </body>
 </html>
