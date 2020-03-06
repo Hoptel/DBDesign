@@ -1,6 +1,6 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="DB" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_768616640" CREATED="1582862232031" MODIFIED="1583521106611"><hook NAME="MapStyle" zoom="1.464">
+<node TEXT="DB" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_768616640" CREATED="1582862232031" MODIFIED="1583526061912"><hook NAME="MapStyle" zoom="1.464">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
@@ -233,8 +233,25 @@
 <node TEXT="Cost" POSITION="left" ID="ID_1875976423" CREATED="1582862700096" MODIFIED="1582863420018" HGAP_QUANTITY="71.74999827891591 pt" VSHIFT_QUANTITY="2.999999910593033 pt">
 <edge COLOR="#7c0000"/>
 </node>
-<node TEXT="File" POSITION="right" ID="ID_308662881" CREATED="1582862321422" MODIFIED="1583520553176" HGAP_QUANTITY="72.49999825656417 pt" VSHIFT_QUANTITY="-0.7499999776482582 pt">
+<node TEXT="File" FOLDED="true" POSITION="right" ID="ID_308662881" CREATED="1582862321422" MODIFIED="1583526061912" HGAP_QUANTITY="72.49999825656417 pt" VSHIFT_QUANTITY="-0.7499999776482582 pt">
 <edge COLOR="#ff00ff"/>
+<node TEXT="Filename" ID="ID_1720943012" CREATED="1583526014488" MODIFIED="1583526020038"/>
+<node TEXT="version" ID="ID_972222454" CREATED="1583526029288" MODIFIED="1583526032312"/>
+<node TEXT="masterID" ID="ID_561242598" CREATED="1583526058425" MODIFIED="1583526653928"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      the GID of the element that the file is associated with
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="Reservation" POSITION="left" ID="ID_1381901778" CREATED="1582863413016" MODIFIED="1583434788261" HGAP_QUANTITY="67.24999841302639 pt" VSHIFT_QUANTITY="-2.999999910593062 pt">
 <edge COLOR="#ff0000"/>
