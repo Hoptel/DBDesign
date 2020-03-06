@@ -262,7 +262,7 @@
 <node TEXT="Employee" POSITION="left" ID="ID_1401624260" CREATED="1583434768067" MODIFIED="1583520689122" HGAP_QUANTITY="63.4999985247851 pt" VSHIFT_QUANTITY="-173.2499948367478 pt">
 <edge COLOR="#007c00"/>
 </node>
-<node TEXT="Last-Updated" FOLDED="true" POSITION="right" ID="ID_1372095906" CREATED="1583520545652" MODIFIED="1583522779162" HGAP_QUANTITY="76.24999814480549 pt" VSHIFT_QUANTITY="-184.4999945014717 pt">
+<node TEXT="Last-Updated" FOLDED="true" POSITION="right" ID="ID_1372095906" CREATED="1583520545652" MODIFIED="1583526735158" HGAP_QUANTITY="76.24999814480549 pt" VSHIFT_QUANTITY="-184.4999945014717 pt">
 <edge COLOR="#7c007c"/>
 <richcontent TYPE="NOTE">
 
@@ -273,6 +273,12 @@
   <body>
     <p>
       contains the names and update times of all tables
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      does not follow base columns
     </p>
   </body>
 </html>
