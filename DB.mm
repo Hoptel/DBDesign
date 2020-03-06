@@ -160,8 +160,72 @@
 <node TEXT="Hotel" POSITION="left" ID="ID_1761038819" CREATED="1582862293788" MODIFIED="1583521106611" HGAP_QUANTITY="69.49999834597116 pt" VSHIFT_QUANTITY="166.4999950379135 pt">
 <edge COLOR="#0000ff"/>
 </node>
-<node TEXT="Auth-Token" POSITION="right" ID="ID_1134554422" CREATED="1582862302210" MODIFIED="1582906690221" HGAP_QUANTITY="67.99999839067465 pt" VSHIFT_QUANTITY="-0.749999977648272 pt">
+<node TEXT="Auth-Token" FOLDED="true" POSITION="right" ID="ID_1134554422" CREATED="1582862302210" MODIFIED="1583522505834" HGAP_QUANTITY="67.99999839067465 pt" VSHIFT_QUANTITY="-0.749999977648272 pt">
 <edge COLOR="#00ff00"/>
+<node TEXT="ID" ID="ID_19067623" CREATED="1583522454213" MODIFIED="1583522498023"/>
+<node TEXT="Access token" ID="ID_1486104630" CREATED="1583522463321" MODIFIED="1583522561040"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      used for authorization
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Refresh token" ID="ID_595198327" CREATED="1583522464390" MODIFIED="1583522696125"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      used to generate a new access token after expiring
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Revoked" ID="ID_1270525947" CREATED="1583522467690" MODIFIED="1583522614037"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      whether the user manually revoked the token (by logging out), disables both access and refresh tokens
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Issued At" ID="ID_1579464406" CREATED="1583522468707" MODIFIED="1583522531070"/>
+<node TEXT="Expires in" ID="ID_963635279" CREATED="1583522470690" MODIFIED="1583522536175"/>
+<node TEXT="user" ID="ID_1322868191" CREATED="1583522477077" MODIFIED="1583522540861"/>
+<node TEXT="scope" ID="ID_191885870" CREATED="1583522482448" MODIFIED="1583522683336"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      by default, this is the user's Auth level, though it can be used to generate authorization tokens that aren't associated with a user for data access
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="Sale" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" POSITION="left" ID="ID_1797500817" CREATED="1582862672855" MODIFIED="1582863376174" HGAP_QUANTITY="70.24999832361937 pt" VSHIFT_QUANTITY="-2.999999910593033 pt">
 <edge COLOR="#00ffff"/>
@@ -181,8 +245,24 @@
 <node TEXT="Employee" POSITION="left" ID="ID_1401624260" CREATED="1583434768067" MODIFIED="1583520689122" HGAP_QUANTITY="63.4999985247851 pt" VSHIFT_QUANTITY="-173.2499948367478 pt">
 <edge COLOR="#007c00"/>
 </node>
-<node TEXT="Last-Updated" POSITION="right" ID="ID_1372095906" CREATED="1583520545652" MODIFIED="1583520565076" HGAP_QUANTITY="76.24999814480549 pt" VSHIFT_QUANTITY="-184.4999945014717 pt">
+<node TEXT="Last-Updated" FOLDED="true" POSITION="right" ID="ID_1372095906" CREATED="1583520545652" MODIFIED="1583522779162" HGAP_QUANTITY="76.24999814480549 pt" VSHIFT_QUANTITY="-184.4999945014717 pt">
 <edge COLOR="#7c007c"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      contains the names and update times of all tables
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Name" ID="ID_824069567" CREATED="1583522722278" MODIFIED="1583522732122"/>
+<node TEXT="Date-Time" ID="ID_136026801" CREATED="1583522724114" MODIFIED="1583522744947"/>
 </node>
 </node>
 </map>
