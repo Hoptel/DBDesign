@@ -280,9 +280,9 @@
 <node TEXT="Reservation" POSITION="left" ID="ID_1381901778" CREATED="1582863413016" MODIFIED="1583434788261" HGAP_QUANTITY="67.24999841302639 pt" VSHIFT_QUANTITY="-2.999999910593062 pt">
 <edge COLOR="#ff0000"/>
 </node>
-<node TEXT="Room" FOLDED="true" POSITION="left" ID="ID_140107556" CREATED="1582864510092" MODIFIED="1583596186437" HGAP_QUANTITY="67.99999839067465 pt" VSHIFT_QUANTITY="-1.4999999552965315 pt">
+<node TEXT="Room" FOLDED="true" POSITION="left" ID="ID_140107556" CREATED="1582864510092" MODIFIED="1585182797156" HGAP_QUANTITY="67.99999839067465 pt" VSHIFT_QUANTITY="-1.4999999552965315 pt">
 <edge COLOR="#ff00ff"/>
-<richcontent TYPE="NOTE">
+<node TEXT="Room" FOLDED="true" ID="ID_432143098" CREATED="1585170781984" MODIFIED="1585182839104"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -290,12 +290,12 @@
   </head>
   <body>
     <p>
-      extends a table known as &quot;room template&quot;, they have the same columns, the only difference is that a room has a &quot;template&quot; column, and it just takes anything that is null in the room element from the template
+      if anything is null it will come from roomtype (which is not nullable)
     </p>
   </body>
 </html>
+
 </richcontent>
-<node TEXT="Room" ID="ID_432143098" CREATED="1585170781984" MODIFIED="1585170803405">
 <node TEXT="Description" ID="ID_931399370" CREATED="1585170564344" MODIFIED="1585170567223"/>
 <node TEXT="BedCount" ID="ID_1240965155" CREATED="1585170487973" MODIFIED="1585170498412"/>
 <node TEXT="BedType" ID="ID_381110134" CREATED="1585170443622" MODIFIED="1585170446242"/>
@@ -305,11 +305,111 @@
 <node TEXT="RoomType" ID="ID_961936682" CREATED="1585170066769" MODIFIED="1585170081539"/>
 <node TEXT="Roomno" ID="ID_32262652" CREATED="1585170019214" MODIFIED="1585170057980"/>
 </node>
-<node TEXT="RoomType" ID="ID_469457491" CREATED="1585170805817" MODIFIED="1585170811401"/>
-<node TEXT="RoomState" ID="ID_1134723188" CREATED="1585170813387" MODIFIED="1585170815651"/>
+<node TEXT="RoomType" FOLDED="true" ID="ID_469457491" CREATED="1585170805817" MODIFIED="1585170811401">
+<node TEXT="same fields as Room" ID="ID_1634833656" CREATED="1585182853716" MODIFIED="1585182860085"/>
 </node>
-<node TEXT="Employee" POSITION="left" ID="ID_1401624260" CREATED="1583434768067" MODIFIED="1583580231937" HGAP_QUANTITY="64.99999848008162 pt" VSHIFT_QUANTITY="-0.7499999776482582 pt">
+<node TEXT="RoomState" FOLDED="true" ID="ID_1134723188" CREATED="1585170813387" MODIFIED="1585170815651">
+<node TEXT="canbook" ID="ID_293638333" CREATED="1585182463118" MODIFIED="1585182475001"/>
+<node TEXT="canci (checkin)" ID="ID_1251296298" CREATED="1585182478661" MODIFIED="1585182488823"/>
+<node TEXT="isbooked" ID="ID_1358562964" CREATED="1585182490992" MODIFIED="1585182509116"/>
+<node TEXT="needshk" ID="ID_1212464147" CREATED="1585182511314" MODIFIED="1585182521794"/>
+<node TEXT="roomid" ID="ID_816647194" CREATED="1585182539559" MODIFIED="1585182549115"/>
+</node>
+</node>
+<node TEXT="Employee" POSITION="left" ID="ID_1401624260" CREATED="1583434768067" MODIFIED="1585182912840" HGAP_QUANTITY="64.99999848008162 pt" VSHIFT_QUANTITY="-0.7499999776482582 pt">
 <edge COLOR="#007c00"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      address
+    </p>
+    <p>
+      authlevel
+    </p>
+    <p>
+      bankname
+    </p>
+    <p>
+      birthdate
+    </p>
+    <p>
+      birthplace
+    </p>
+    <p>
+      bloodgrp
+    </p>
+    <p>
+      city
+    </p>
+    <p>
+      companyid
+    </p>
+    <p>
+      country
+    </p>
+    <p>
+      department
+    </p>
+    <p>
+      email
+    </p>
+    <p>
+      fullname
+    </p>
+    <p>
+      gender
+    </p>
+    <p>
+      haslogin
+    </p>
+    <p>
+      iban
+    </p>
+    <p>
+      idno
+    </p>
+    <p>
+      langid
+    </p>
+    <p>
+      maritalstatus
+    </p>
+    <p>
+      nation
+    </p>
+    <p>
+      paycurrid
+    </p>
+    <p>
+      salaryamount
+    </p>
+    <p>
+      salaryday
+    </p>
+    <p>
+      startdate
+    </p>
+    <p>
+      enddate
+    </p>
+    <p>
+      taxnumber
+    </p>
+    <p>
+      tel
+    </p>
+    <p>
+      tel2
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
 <node TEXT="Last-Updated" FOLDED="true" POSITION="right" ID="ID_1372095906" CREATED="1583520545652" MODIFIED="1583592470377" HGAP_QUANTITY="57.49999870359902 pt" VSHIFT_QUANTITY="-4.499999865889549 pt">
 <edge COLOR="#7c007c"/>
